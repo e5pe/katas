@@ -19,7 +19,6 @@ class loops_II {
             b_inputs[i] = b;
             int n = in.nextInt();
             n_inputs[i] = n;
-            // System.out.printf("%-15d %-15d %d%n", a, b, n);
         }
         in.close();
         for (int i = 0; i < q; i++) {
@@ -31,8 +30,6 @@ class loops_II {
 
                 // we have to add last result to current one
                 last_result = result;
-                // System.out.printf("(%d + 2^%d * %d)%n", a, j, b_inputs[i]);
-                // System.out.println("result: " + Integer.toString(result));
                 sb.append(Integer.toString(result)).append(" ");
             }
             System.out.println(sb);
