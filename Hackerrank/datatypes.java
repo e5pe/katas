@@ -6,7 +6,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution {
+class datatypes {
     public static void main(String[] argh) {
 
         Scanner sc = new Scanner(System.in);
